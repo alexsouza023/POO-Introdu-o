@@ -6,6 +6,9 @@ public class Lista01 {
 
     public void ex1(){
 
+        // Escreva um programa que faça a soma entre 2 números.
+
+
         // Cria um objeto Scanner para ler a entrada do usuário
         Scanner scanner = new Scanner(System.in);
 
@@ -30,6 +33,10 @@ public class Lista01 {
      
     public void ex2(){ 
 
+        /*Escreva um programa que pergunte o nome e o
+        sobrenome do usuário e escreva na tela: "Olá, -usuário-". */
+
+
         // Cria um objeto Scanner para ler a entrada do usuário
         Scanner scanner = new Scanner(System.in);
 
@@ -49,6 +56,9 @@ public class Lista01 {
     }
 
     public void ex3(){
+
+        /* Escreva uma calculadora que receba um valor em reais e
+        converta para dólar. Considere o valor do dólar a R$5,25.*/
 
         // Define a taxa de câmbio
         final double TAXA_CAMBIO = 5.25;
@@ -72,6 +82,9 @@ public class Lista01 {
 
     public void ex4(){
 
+        /* Construa um algoritmo que leia um número inteiro na tela e
+        responda o número antecessor e o sucessor.*/
+
         // Cria um objeto Scanner para ler a entrada do usuário
         Scanner scanner = new Scanner(System.in);
 
@@ -92,6 +105,9 @@ public class Lista01 {
     }
 
     public void ex5(){
+
+        /* Construa um algoritmo que calcule o valor de um terreno
+        baseado na sua área e valor por m2. */
 
         // Cria um objeto Scanner para ler a entrada do usuário
         Scanner scanner = new Scanner(System.in);
@@ -116,6 +132,11 @@ public class Lista01 {
 
     public void ex6(){
 
+        /*  Construa um algoritmo que leia 1- a distância percorrida
+        por um veículo em km 2- o total gasto em combustível em
+        litros. No final deverá ser respondido o consumo médio deste
+        veículo em km/l. */
+
         // Cria um objeto Scanner para ler a entrada do usuário
         Scanner scanner = new Scanner(System.in);
 
@@ -139,6 +160,9 @@ public class Lista01 {
 
     public void ex7(){
 
+        /* Escreva um programa que receba quatro notas de um
+        aluno e calcule a média aritmética dessas notas. */
+
         // Cria um objeto Scanner para ler a entrada do usuário
         Scanner scanner = new Scanner(System.in);
 
@@ -155,10 +179,10 @@ public class Lista01 {
         System.out.print("Digite a quarta nota: ");
         double nota4 = scanner.nextDouble();
  
-        // Calcula a média aritmética das notas
+        // Calcula a média das notas
         double media = (nota1 + nota2 + nota3 + nota4) / 4;
  
-        // Exibe a média aritmética
+        // Exibe a média 
         System.out.printf("A média aritmética das notas é: %.2f\n", media);
  
         // Fecha o scanner
@@ -167,7 +191,11 @@ public class Lista01 {
 
     public void ex8(){
 
-       // Cria um objeto Scanner para ler a entrada do usuário
+        /*  Suponha que voce trabalhe em um laboratório e seu
+        colega mediu a temperatura de um objeto em Fahrenheit.
+        Escreva um programa capaz de converter em Celsius.import java */
+
+        // Cria um objeto Scanner para ler a entrada do usuário
         Scanner scanner = new Scanner(System.in);
 
         // Pergunta a temperatura em Fahrenheit
