@@ -56,10 +56,60 @@ public class Lista02 {
 
         // Fecha o objeto Scanner
         scanner.close();
-
-
-
     }
+
+    public void ex3 () {
+
+        /* Um banco contratou você para que escreva um programa que será utilizado
+        pelo usuário em um tablet. O programa irá fazer 3 perguntas e encaminhar o
+        cliente para 2 filas. A fila comum e a fila preferencial. Se o cliente atender a uma
+        das condições a seguir ele deve ser encaminhado para a fila preferencial. As
+        condições são: Ter mais de 65 anos, se deficiente ou gestante. */
+
+        Scanner scanner = new Scanner(System.in);
+
+        // Perguntar a idade
+        System.out.print("Por favor, insira sua idade: ");
+        int idade = scanner.nextInt();
+
+
+        // Se for idoso, encaminhar para a fila preferencial e encerrar
+        if (idade > 65) {
+            System.out.println("Você será encaminhado(a) para a fila preferencial.");
+            scanner.close();
+            return;
+        }
+
+        // Perguntar se é deficiente
+        System.out.print("Você é deficiente? (sim/não): ");
+        String respostaDeficiente = scanner.next();
+
+        // Se for deficiente, encaminhar para a fila preferencial e encerrar
+        if (respostaDeficiente.equalsIgnoreCase("sim")) {
+            System.out.println("Você será encaminhado(a) para a fila preferencial.");
+            scanner.close();
+            return;
+        }
+
+        // Perguntar se é gestante
+        System.out.print("Você é gestante? (sim/não): ");
+        String respostaGestante = scanner.next();
+
+        // Se for gestante, encaminhar para a fila preferencial e encerrar
+        if (respostaGestante.equalsIgnoreCase("sim")) {
+            System.out.println("Você será encaminhado(a) para a fila preferencial.");
+            scanner.close();
+            return;
+        }
+
+        // Se não atender a nenhuma das condições, encaminhar para a fila comum
+        System.out.println("Você será encaminhado(a) para a fila comum.");
+        
+        
+        // Fechar Scarnner
+        scanner.close();
+
+        }
     
 
 
